@@ -15,14 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: 450031420192.dkr.ecr.eu-west-1.amazonaws.com/nginxmod:latest
         ports:
         - containerPort: 80
-
-        volumeMounts:
-        - name: nginx-config
-          mountPath: /etc/nginx/conf.d
-      volumes:
-      - name: nginx-config
-        configMap:
-          name: nginx-config
