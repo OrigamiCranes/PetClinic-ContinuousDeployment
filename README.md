@@ -10,6 +10,7 @@
 7. Kubernetes
 8. Cost Breakdown
 9. Team Members
+10. Acknowledgements
 
 ## 1. Brief
 This project is a DevOps Continuous Integration/Continuous Deployment pipeline for the Spring-PetClinic application library. It consists of two app repos; an angular front-end, and a RESTFUL API backend. 
@@ -92,5 +93,8 @@ In order to make sure the cluster had the correct format we stored the informati
  * Kishan Vekaria
  * Bilal Mustafa
  * Suban Akhtar  
+ 
+## 10. Acknowledgements 
+Thanks to the instructors at QA for the 12 weeks of instruction. Thanks Peter Rhodes and Raji Kolluru
 
 
