@@ -40,7 +40,9 @@ To see the actual Kanban Board:
 This is the risk assessment I have conducted for the project. 
 Including replicas of the containers has reduced the chance of servers crashing causing a failure in the running of all services.
 In addition including a load balancer means that the chance of traffic overload causing failure is also reduced.
-![Risk Assessment](https://trello-attachments.s3.amazonaws.com/6006b837abee6877e9b3597f/6020355e91dfc2794a87e432/197c575103b08e6b80da596bf160311a/Risk_Assessment.JPG)
+
+
+![Risk Assessment](https://raw.githubusercontent.com/JasonWorger/T1_QA_Final_Project/master/.README_images/9c190a96.png)
 
 
 
