@@ -45,6 +45,8 @@ In addition including a load balancer means that the chance of traffic overload 
 
 
 ## 4. CI Pipeline
+
+
 * Kanban Board: github
 * Version Control: AWS CodeCommit
 * CI Server: AWS CodePipeline
@@ -53,6 +55,8 @@ In addition including a load balancer means that the chance of traffic overload 
 * Containerisation: AWS ECR
 * Orchestration Tool: Kubernetes
 * Reverse Proxy: NGINX
+
+![pipeline](https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2018/01/12/CD_to_K8-934x630.png)
 
 The Project aimed to utilize AWS specific services for the CI/CD pipeline. AWS CodePipeline was used in this case. The pipeline is split into 3 stages; source, build and deploy. 
 
@@ -86,4 +90,5 @@ In order to make sure the cluster had the correct format we stored the informati
  * Kishan Vekaria
  * Bilal Mustafa
  * Suban Akhtar  
+
 
